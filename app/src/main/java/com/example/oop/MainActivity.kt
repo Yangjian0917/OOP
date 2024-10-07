@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity(), OnClickListener,OnLongClickListener {
         var txv: TextView = findViewById(R.id.txv)
         var img: ImageView = findViewById(R.id.img)
         if (v == img) {
-            txv.text = "狗狗和貓"
+            txv.text = "狗和貓"
         }
         else{
             txv.text = "文字短按"
